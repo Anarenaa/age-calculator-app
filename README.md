@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop empty version](../screenshots/desktop.png)
+![Desktop empty version](../screenshots/desktop.png) 
 ![Mobile completed version](../screenshots/mobile.png)
 ![Error (date is in the future)](../screenshots/error1.png)
 ![Error (non-existent date)](../screenshots/error2.png)
