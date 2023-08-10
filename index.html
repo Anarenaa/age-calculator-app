@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width = device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="only light">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="input-block">
+      <div class="input-block__element">
+        <label class="input-block__label" for="day">Day</label>
+        <input class="input-block__field" type="text" id="day" placeholder="DD" maxlength="2" autocomplete="off" required onkeyup="this.value = this.value.replace(/[^\d]/g,'');">
+        <p class="input-block__note"></p>
+      </div>
+
+      <div class="input-block__element">
+        <label class="input-block__label" for="month">Month</label>
+        <input class="input-block__field" type="text" id="month" placeholder="MM" maxlength="2" autocomplete="off" required onkeyup="this.value = this.value.replace(/[^\d]/g,'');">
+        <p class="input-block__note"></p>
+      </div>
+
+      <div class="input-block__element">
+        <label class="input-block__label" for="year">Year</label>
+        <input class="input-block__field" type="text" id="year" placeholder="YYYY" maxlength="4" autocomplete="off" required onkeyup="this.value = this.value.replace(/[^\d]/g,'');">
+        <p class="input-block__note"></p>
+      </div>
+
+     <button class="input-block__button"><img src="assets/images/icon-arrow.svg" alt="arrow"></button>
+    </div>
+
+    <div class="result">
+      <p class="result__line"><span id="result__years">- -</span> years</p>
+      <p class="result__line"><span id="result__months">- -</span> months</p>
+      <p class="result__line"><span id="result__days">- -</span> days</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
