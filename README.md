@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/bright-and-adaptive-application-for-you-MlX_3-ibWs
+- Live Site URL: https://anarenaa.github.io/age-calculator-app/
 
 ## My process
 
