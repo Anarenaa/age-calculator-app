@@ -3,7 +3,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -12,10 +13,19 @@ html {
 body {
   font-family: "Poppins";
   background-color: hsl(0, 0%, 94%);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-height: 100%;
 }
 
@@ -30,6 +40,8 @@ body {
 
 .input-block {
   border-bottom: 1px solid hsl(0, 0%, 86%);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 2rem;
   position: relative;
@@ -73,6 +85,8 @@ body {
   right: -3rem;
   margin-right: 3rem;
   cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .input-block__button:hover {
@@ -123,7 +137,9 @@ body {
     max-width: 42.5rem;
   }
   .input-block {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     gap: 0;
     padding-bottom: 5rem;
   }
