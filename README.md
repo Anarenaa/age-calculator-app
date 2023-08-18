@@ -71,7 +71,6 @@ function getDateInMonth(y, m) {
 ## Author
 
 - Frontend Mentor - [@Anarenaa](https://www.frontendmentor.io/profile/Anarenaa)
-- Instagram - [@___mika_15](https://www.instagram.com/___mika_15)
 
 ## Acknowledgments
 
